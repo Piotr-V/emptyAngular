@@ -16,5 +16,4 @@ angular.module('app', [])
             $scope.newPersonne.email = '';
             $scope.personne.push(newPersonne);
         };
-
     });

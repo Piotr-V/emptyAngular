@@ -12,11 +12,11 @@
     <form ng-submit="addPersonne()">
         <fieldset>
             <label for="prenom">Prénom: </label><br/>
-            <input type="text" id="prenom" ng-model="newPersonne.prenom"><br/>
+            <input type="text" id="prenom" ng-model="newPersonne.prenom" required><br/>
             <label for="nom">Nom: </label><br/>
-            <input type="text" id="nom" ng-model="newPersonne.nom"><br/>
+            <input type="text" id="nom" ng-model="newPersonne.nom" required><br/>
             <label for="email">Email: </label><br/>
-            <input type="text" id="email" ng-model="newPersonne.email"><br/>
+            <input type="text" id="email" ng-model="newPersonne.email" required><br/>
             <button type="submit">Ajouter</button>
         </fieldset>
     </form>
